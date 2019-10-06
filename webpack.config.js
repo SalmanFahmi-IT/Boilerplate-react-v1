@@ -5,8 +5,9 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 
 // We'll refer to our source and dist paths frequently, so let store the here
-const PATH_SOURCE = path.join(__dirname, './src');
+const PATH_SOURCE = path.join(__dirname, './app');
 const PATH_DIST = path.join(__dirname, './dist');
+
 
 // Export a configuration object
 module.exports = env => {
